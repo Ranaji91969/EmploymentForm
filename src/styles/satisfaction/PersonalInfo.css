@@ -1,0 +1,32 @@
+.form-container {
+    display: flex;
+  }
+ 
+  .form-column1 {
+    width: 100%;
+    max-width: 430px; 
+    margin: 0 auto; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .form-group div {
+    display: flex;
+    gap: 10px; 
+  }
+  .form-column1 input{
+    margin-bottom: 20px;
+  }
+  .form-group input {
+    margin-bottom: 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-top: 20px;
+    
+  }
+  
+  

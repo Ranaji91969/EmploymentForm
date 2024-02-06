@@ -1,0 +1,19 @@
+
+.StarRating {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+
+  }
+span{
+    font-size: 30px;
+  }
+  
+  .Star {
+    cursor: pointer;
+    color: #e4e5e9;
+  }
+  
+  .SelectedStar {
+    color: #ffd700;
+  }
+  
