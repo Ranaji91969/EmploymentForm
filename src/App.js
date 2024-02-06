@@ -1,18 +1,25 @@
+import logo from './logo.svg';
 import './App.css';
-import React from 'react';
-import EmployeeSatisfactionForm from './app/EmployeeSatisfactionForm';
-import "../src/styles/satisfaction/AdditionalComments.css";
-import '../src/styles/satisfaction/PersonalInfo.css';
-import "../src/styles/satisfaction/TeamMatesHelpfulness.css";
-import "../src/styles/satisfaction/SatisfactionRating.css";
-const App = () => {
+
+function App() {
   return (
-    <div className="app">
-      <EmployeeSatisfactionForm />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
-};
-
-
+}
 
 export default App;
